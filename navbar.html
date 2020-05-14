@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=B612+Mono|Noto+Sans+HK|Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=B612+Mono|Indie+Flower|Kalam|Permanent+Marker|Quicksand|Saira+Semi+Condensed&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+<link rel="stylesheet" href="styling.css" type="text/css" />
+  <script>
+  $(window).scroll(function(){
+    $('nav').toggleClass('scrolled',$(this).scrollTop() > 400);
+  });
+    </script>
+  <title>Aaroha</title>
+</head>
+
+<body>
+  <header>
+    <div class="top">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">
+    <img src="image/logo.png" width="50%" height="50%" alt="">
+  </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#" class="nav-link"  id="me">Home</a></li>
+            <li class="nav-item"><a href="event.php" class="nav-link" id="me">Events</a></li>
+            <li class="nav-item"><a href="project.html" class="nav-link" id="me">Project</a></li>
+            <li class="nav-item dropdown">
+              <a id="me" class="nav-link dropdown-toggle" href="nitb.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Chapters
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" id="me" href="nitb.html">NIT-B</a>
+                <a class="dropdown-item" id="me" href="#eve">IHM-B</a>
+              </div>
+            </li>
+                <li class="nav-item"><a href="gallery.php" class="nav-link" id="me">Gallery</a></li>
+                <li class="nav-item"><a href="team.php" class="nav-link" id="me">Team</a></li>
+                <li class="nav-item"><a href="joinus.php" class="nav-link" id="me">Join</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" id="me">Contact </a></li>
+                <li class="nav-item">
+                  <button type="button" class="btn btn-primary btn-rounded">
+                    DONATE
+                  </button>
+                </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="box">
+          <div class="inner">
+             <h1 style="font-size: 60px;font-weight: 600;color: black;">AAROHA</h1>
+             <br>
+             <p style="font-size: 50px;font-weight: 400;color: black;">आरोह तमसो ज्योतिः</p>
+            <p style="font-size: 45px;font-weight: 400;color: #1e3799;padding-left: 15px;padding-right: 15px;" >" अन्धकार से प्रकाश की ओर एक कदम "</p>
+             <!-- <p style="font-size: 30px;font-weight: 150;color: #1e3799;padding-left: 15px;padding-right: 15px;" >"If you want to walk fast, walk alone, but, if you want to walk far, walk together."</p> -->
+            <!-- <p style="font-size: 42px;font-weight: 300;color: black;padding-left: 5px;padding-right: 5px;">Crusaders of Change</p> -->
+             <!-- <button class="btn btn-light">Explore</button> -->
+          </div>
+   </div>
+
+  </header>
+<section class="about">
+  <div class="container-fluid">
+<h1>ABOUT US</h1>
+<p class="us">Not everyone has been blessed with a good home, quality education and a carefree childhood. While we were born in
+privileged families where our dreams and aspirations were supported, and opportunities as well as resources stood at our
+doorstep, there is a massive section of the society that does not have the basic amenities that we take for granted.
+These children come from slums that are sinking in poverty and illiteracy, yet the potential that they own is beyond our
+imagination.<br>
+Aaroha came into existence when a small group of people who believed in bringing light to these dark corners of the
+country decided to render their selfless services to this section of the society. They started with the aim of providing
+basic education, free of cost, to children of the slums and provide then with a nurturing environment in order to help
+their overall development.
+<br><br>
+<h5 style="font-weight: 500;font-style: italic;">Aaroha is an organization committed to the cause of enlightening the lives of underprivileged children and driving them
+from the darkness of illiteracy and ignorance.</h5></p>
+  </div>
+
+</section>
+
+<section class="events" id="eve">
+  <div class="container-fluid">
+    <h1>WHAT WE DO AT AAROHA</h1>
+    <!-- <p class="us1">The primary objective of this organization is to provide education to the underprivileged, illiterate children. For this
+    purpose, we hold classes regularly for our children at a center in Anna Nagar.<br>
+    For the smooth functioning and for the effective implementation of the policies, the entire workforce has been divided
+    into a management team and a team of volunteers. Separate verticals have been designed in order to efficiently meet all
+    the requirements of the organization. The three major verticals are:<br> • Academic and Overall Development <br>• Promotion
+    Relations Department <br>• Event Management Department
+    </p> -->
+    <p style="text-align: center;font-weight: 600;font-size: 30px;padding-top: 10px;font-style: italic;">“Be the change you wish to see in the world.”</p>
+
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-4">
+           <div class="box">
+             <div class="imgBox">
+               <img src="image/Picture6.jpg" alt="" class="img-responsive" width="100%"  height="400px">
+             </div>
+             <div class="content">
+               <h3>ACADEMICS</h3>
+               <p> A teacher's job is to 'teach' and a student's job is to 'study'. But the process of 'learning' is always common between
+              the two.
+              We at Aaroha believe in this, 'learning' & 'imparting' of knowledge</p>
+               <a href="#" class="btn btn-default btnD">Read More</a>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-4">
+           <div class="box">
+             <div class="imgBox">
+               <img src="image/Picture10.jpg" alt="" class="img-responsive" width="100%" height="400px">
+             </div>
+             <div class="content">
+               <h3>EXTRA CURRICULAR ACTIVITIES</h3>
+               <p>Good dancers dance on the beats of music, but children dance on the beats of their hearts and fill the air with music.
+              Children never dance to please the people around, they dance to please their own souls.</p>
+               <a href="#" class="btn btn-default btnD">Read More</a>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-4">
+           <div class="box">
+             <div class="imgBox">
+               <img src="image/Picture11.jpg" alt="" class="img-responsive" width="100%"  height="400px">
+             </div>
+             <div class="content">
+               <h3>OVERALL DEVELOPMENT</h3>
+               <p>"Tell me & I forget it. Teach me & I remember. Involve me & I learn."</p>
+               <a href="#" class="btn btn-default btnD">Read More</a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+     </div>
+  </div>
+</section> 
+
+<section class="stat" id="stats">
+  <h1 style="padding-bottom: 25px;">ACHIEVEMENTS</h1>
+    
+  <div class="content-box">
+<div class="container counter-box">
+  <div class="row text-center">
+    <div class="col-md-3">
+      <div class="stat-items">
+      <img src="image/reward.png" alt="" style="width: 35%; height: 35%;">
+      <h2><span class="counter text-center">5</span></h2>
+      <p>PROJECTS</p>
+     </div></div>
+     <div class="vl"></div>
+    <div class="col-md-3">
+      <div class="stat-items">
+      <img src="image/girl.png" alt="" style="width: 35%; height: 35%;">
+      <h2><span class="counter text-center">400</span></h2>
+      <p>STUDENTS</p>
+    </div> </div>
+    <div class="vl"></div>
+    <div class="col-md-3">
+      <div class="stat-items">
+      <img src="image/school.png" alt="" style="width: 35%; height: 35%;">
+      <h2><span class="counter text-center">2</span></h2>
+      <p>SCHOOLS</p>
+    </div></div>
+    <!-- <div class="vl"></div> -->
+    <div class="col-md-3">
+      <div class="stat-items">
+      <img src="image/presentation.png" alt="" style="width: 35%; height: 35%;">
+      <h2><span class="counter text-center">150</span></h2>
+      <p>TEACHERS</p>
+    </div></div>
+  </div>
+  </div>
+ </div>
+</section>
+<!-- counter -->
+<script src="jquery.waypoints.min.js"></script>
+<script src="jquery.counterup.min.js"></script> 
+  <script>
+      jQuery(document).ready(function($) 
+      {
+        $('.counter').counterUp({
+          delay: 10,
+          time: 1000
+        });
+        });
+  </script>
+  <section class="sube">
+<div class="container kk" id="even">
+<h1 style="padding-top: 20px;">EVENTS</h1>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-lg-4">
+      <div class="box">
+        <div class="imgBox1">
+          <img src="image/Picture18.jpg" alt="" class="img-responsive" width="100%" height="300px;">
+        </div>
+        <div class="content">
+          <h3>AARAMBH</h3>
+          <p>Aaroha made an optimistic start with Aarambh, the event was held on the 31st of July 2016 in Aashima Mall, Bhopal.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="box">
+        <div class="imgBox1">
+          <img src="image/Picture16.jpg" alt="" class="img-responsive" width="100%" height="300px">
+        </div>
+        <div class="content">
+          <h3>AAKAR</h3>
+          <p>Aakar was a science exhibition that was put up by our children in NIT Bhopal on the 21st and 22nd of October, 2016. The
+          underprivileged children studying in Aaroha presented their science models.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="box">
+          <div class="imgBox1">
+            <img src="image/Picture15.jpg" alt="" class="img-responsive" width="100%" height="300px">
+          </div>
+          <div class="content">
+            <h3>अ से अः</h3>
+            <p>Aaroha is proud to have organized another successful even on the 12th of February 2017 at Shree Bhavan’s Bharti
+              School.
+              The event was aimed at making our children feel special.</p>
+          </div>
+        </div>
+    </div>
+    </div>
+  </div>
+    <div class="carousel-item">
+      <div class="row">
+      <div class="col-lg-4">
+        <div class="box">
+          <div class="imgBox1">
+            <img src="image/Picture17.jpg" alt="" class="img-responsive" width="100%" height="300px">
+          </div>
+          <div class="content">
+            <h3>PHOTO WALK</h3>
+            <p>The children were taken for a visit to the Tribal Museum. This place gives a gist of ancient lifestyle of the
+              people.</p>
+        
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+          <div class="box">
+            <div class="imgBox1">
+              <img src="image/Picture19.jpg" alt="" class="img-responsive" width="100%" height="300px">
+            </div>
+            <div class="content">
+              <h3>FUNDRAISING AT UPPER LAKE</h3>
+              <p>On the 26th of January, while the country was busy celebrating the Republic Day of India, the volunteers at
+                Aaroha took this opportunity to raise funds at Upper Lake</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="box">
+          <div class="imgBox1">
+            <img src="image/Picture4.jpg" alt="" class="img-responsive" width="100%" height="300px">
+          </div>
+          <div class="content">
+            <h3>‘AASHA’ – A ray of hope</h3>
+            <p>Aasha was another one of our massive events, which was conducted in two parts. The first part of the event was conducted
+            at Shaurya Smarak, where the children were taken on an educational tour about the history of our nation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</section>
+
+<section class="donate">
+  <div class="container" id="donate">
+    <h1 align="center">DONATE</h1>
+    <hr>
+    <p id="contentdonate">A donation is a gift for charity, humanitarian aid, or to benefit a cause. A donation may take
+      various forms, including money, alms, services, or goods such as clothing, toys, food, or vehicles. A donation may
+      satisfy medical needs such as blood or organs for transplant.</p>
+    <hr>
+  </div>
+  <div class="container.fluid" id="option">
+    <div class="row">
+      <div class="col-sm-6">
+        <a target="_blank" href="image/Picture2.jpg">
+          <!--tring modal-->
+          <img id="inside" src="image/Picture2.jpg" align="center">
+  
+        </a>
+  
+        <div id="buttoncontainer" class="button" align="center" type="button" data-toggle="modal"
+          data-target="#exampleModalCenter22">Sponsor a child</div>
+  
+  
+      </div>
+      <div class="col-sm-6">
+        <a target="_blank" href="image/Picture2.jpg">
+          <img id="inside" src="image/Picture2.jpg" align="center">
+        </a>
+        <div>
+          <div id="buttoncontainer" class="button" align="center" type="button" data-toggle="modal"
+            data-target="#exampleModalCenter">Donate amount</div>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<footer class="footer-distributed">
+  <div class="footer-left">
+          <h3>Aa<span>ro</span>ha</h3>
+          <p class="footer-links">
+            <a href="#">Home</a>
+            ·
+            <a href="#">About Us</a>
+            ·
+            <a href="#">Blog</a>
+            ·
+            <a href="#">Events</a>
+            ·
+            <a href="#">Projects</a>
+            ·
+            <a href="#">Contact</a>
+          </p>
+          <p class="footer-company-name">&copy; 2020</p>
+        </div>
+        <div class="footer-center">
+          <div>
+          <i class="fa fa-phone"></i>
+          <p>+91 75663 09722</p>
+</div>
+        
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p>
+            <a href="#" style="color: #2C8AF6;">aaroha.youthorg@gmail.com</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About Us</span>
+          Aaroha is a youth organization which works for the upliftment of the
+          underprivileged children.
+        </p>
+        
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/aaroha.youthorg/">
+            <img src="https://img.icons8.com/nolan/40/facebook-new.png" /></a>
+          <a href="#"><img src="https://img.icons8.com/nolan/40/twitter.png" /></a>
+          <a href="https://www.facebook.com/aaroha.youthorg/"><img
+              src="https://img.icons8.com/nolan/40/instagram-new.png" /></a>
+        </div>
+      </div>
+      <div class="row footer-bottom">
+      
+        <div class="col-twelve">
+          <div class="copyright">
+            <span>© Copyright Aaroha 2020</span>
+            <span>Crafted with ❤ by <a href="https://www.linkedin.com/mwlite/in/aditi-khandelwal-799480172">Aditi Khandelwal, </a><a
+                href="https://www.linkedin.com/in/neha-parmar-242a89175/">Neha Parmar</a> and <a
+                href="https://www.linkedin.com/mwlite/in/prakriti-shrivastava-b55172199">Prakriti Shrivastava</a></span>
+          </div>
+      
+          <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      
+      </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      </body>
+</html>
